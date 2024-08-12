@@ -1,17 +1,4 @@
-/*
-	Chicago Crime and Weather
-	Author: Jaime M. Shaker
-	Email: jaime.m.shaker@gmail.com or jaime@shaker.dev
-	Website: https://www.shaker.dev
-	LinkedIn: https://www.linkedin.com/in/jaime-shaker/
-	
-	File Name: build_tables.sql
-	Description:  This script will import data from the CSV files and create the 
-	schema, tables and table relationships for this project.  Once it is complete, 
-	it will drop any unecessary schemas and tables.
-*/
 
--- Create an schema and table for importing data
 CREATE SCHEMA IF NOT EXISTS import_data;
 
 -- Import data from CSV files
